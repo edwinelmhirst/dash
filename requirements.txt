@@ -6,3 +6,4 @@ dash-html-components>=1.0.3
 dash-renderer>=1.4.1
 dash-table>=4.7.0
 gunicorn>=19.7.1
+flask >=1.1.2
