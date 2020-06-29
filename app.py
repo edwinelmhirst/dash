@@ -25,4 +25,5 @@ log_x=True, size_max=55, range_x=[100,100000], range_y=[25,90])
 config = {'displaylogo': False}
 app.layout = html.Div([
 dcc.Graph(id="fig1", figure=fig, config=config)])
-app.run_server(debug=True, use_reloader=False)
+if __name__ == '__main__':
+  app.run_server(debug=True, use_reloader=False)
