@@ -26,5 +26,5 @@ config = {'displaylogo': False}
 app.layout = html.Div([
 dcc.Graph(id="fig1", figure=fig, config=config)])
 if __name__ == '__main__':
-    app.run_server()
+    app.run()
 #app.run_server(threaded=True, port=8050) #local test
